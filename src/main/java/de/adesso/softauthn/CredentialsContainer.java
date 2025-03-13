@@ -101,7 +101,7 @@ public class CredentialsContainer {
         ClientData clientData = collectClientData("webauthn.create", options.getChallenge(), origin, sameOriginWithAncestors);
 
         for (Authenticator authenticator : authenticators) {
-            if (options.getAuthenticatorSelection()
+            if (!options.getAuthenticatorSelection()
                     .flatMap(AuthenticatorSelectionCriteria::getAuthenticatorAttachment)
                     .map(authenticator.getAttachment()::equals)
                     .orElse(false)) {

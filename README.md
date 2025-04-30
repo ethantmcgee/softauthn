@@ -22,16 +22,16 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.adessose:softauthn:0.1.2")
+    implementation("dev.ethantmcgee:softauthn:0.1.6")
 }
 ```
 
 Maven: 
 ```xml
 <dependency>
-    <groupId>io.github.adessose</groupId>
+    <groupId>dev.ethantmcgee</groupId>
     <artifactId>softauthn</artifactId>
-    <version>0.1.2</version>
+    <version>0.1.6</version>
 </dependency>
 ```
 

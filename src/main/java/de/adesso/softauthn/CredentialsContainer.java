@@ -104,7 +104,7 @@ public class CredentialsContainer {
             if (!options.getAuthenticatorSelection()
                     .flatMap(AuthenticatorSelectionCriteria::getAuthenticatorAttachment)
                     .map(authenticator.getAttachment()::equals)
-                    .orElse(false)) {
+                    .orElse(true)) {
                 continue;
             }
 

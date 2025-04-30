@@ -32,7 +32,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates("dev.ethantmcgee", "softauthn", "0.1.5")
+    coordinates("dev.ethantmcgee", "softauthn", "0.1.6")
 
     pom {
         name.set("softauthn")

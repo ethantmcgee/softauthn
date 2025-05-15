@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "dev.ethantmcgee"
-version = "0.1.6"
+version = "0.1.7"
 
 repositories {
     mavenCentral()
@@ -19,7 +19,7 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.0")
     implementation("com.augustcellars.cose:cose-java:1.1.0")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.14.0-rc2")
-    api("com.yubico:webauthn-server-core:2.7.0-RC1")
+    api("com.yubico:webauthn-server-core:2.7.0")
 }
 
 java {
@@ -32,7 +32,7 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates("dev.ethantmcgee", "softauthn", "0.1.6")
+    coordinates("dev.ethantmcgee", "softauthn", "0.1.7")
 
     pom {
         name.set("softauthn")

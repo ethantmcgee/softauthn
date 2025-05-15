@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.ethantmcgee:softauthn:0.1.6")
+    implementation("dev.ethantmcgee:softauthn:0.1.7")
 }
 ```
 
@@ -31,7 +31,7 @@ Maven:
 <dependency>
     <groupId>dev.ethantmcgee</groupId>
     <artifactId>softauthn</artifactId>
-    <version>0.1.6</version>
+    <version>0.1.7</version>
 </dependency>
 ```
 
